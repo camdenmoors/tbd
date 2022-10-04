@@ -4,7 +4,7 @@
 
 # Default variables
 
-NAME = "tbd"
+NAME="tbd"
 REPO="https://github.com/camdenmoors/tbd"
 
 
