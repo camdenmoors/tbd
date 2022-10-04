@@ -8,8 +8,8 @@ NAME="tbd"
 REPO="https://github.com/camdenmoors/tbd"
 
 
-# Step 1: Install CINC (InSpec) if not Installed
-if ! command -v cinc &> /dev/null
+# Step 1: Install CINC (InSpec) if not installed
+if ! command -v inspec &> /dev/null
 then
     echo "CINC (InSpec) could not be found"
     echo "Installing CINC (InSpec)..."
@@ -19,7 +19,7 @@ else
     echo "CINC (InSpec) already installed"
 fi
 
-# Step 2: Install git if not Installed
+# Step 2: Install git if not installed
 if ! command -v git &> /dev/null
 then
     echo "git could not be found"
@@ -30,7 +30,7 @@ else
     echo "git already installed"
 fi
 
-# Step 3: Install NodeJS and yarn if not Installed
+# Step 3: Install NodeJS and yarn if not installed
 if ! command -v node &> /dev/null
 then
     echo "NodeJS could not be found"
