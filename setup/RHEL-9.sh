@@ -54,11 +54,4 @@ fi
 
 # Step 4: Install the program
 git clone $REPO
-cd $NAME
-# Install npm packages
-npm install
-# Build the program
-npm run build
-# Install the program
-npm install -g
-
+cd $NAME && npm install && npm run build && npm run firstrun
