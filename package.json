@@ -1,20 +1,16 @@
 {
   "name": "tbd",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "Compliance as a Service Program",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "firstrun": "echo "
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camdenmoors/tbd.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/camdenmoors/tbd/issues"
-  },
-  "homepage": "https://github.com/camdenmoors/tbd#readme"
+  "repository": "https://github.com/camdenmoors/tbd.git",
+  "author": "camdenmoors@usf.edu",
+  "license": "TBD",
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "lerna": "^5.5.4"
+  }
 }
