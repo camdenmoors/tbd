@@ -10,6 +10,9 @@
   "workspaces": [
     "apps/*"
   ],
+  "scripts": {
+    "backend": "yarn workspace backend"
+  },
   "dependencies": {
     "lerna": "^5.5.4"
   }
